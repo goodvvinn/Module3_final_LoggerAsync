@@ -53,8 +53,6 @@ namespace LoggerAsync.Services
             }
 
             semafSlim.Release();
-
-            // return await tcs.Task;
         }
     }
 }
